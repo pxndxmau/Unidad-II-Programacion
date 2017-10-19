@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+    <p>The value of a:</p>
+    <table>
+    <tr>
+        <td>b:</td>
+        <td>{{ the_b }}</td>
+    </tr>
+        <tr>
+        <td>h:</td>
+        <td>{{ the_h }}</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            (b*h)/2
+        </td>
+    </tr>
+    <tr>
+        <td>a:</td>
+        <td>{{ the_result }}</td>
+    </tr>
+
+    </table>
+{% endblock %}
